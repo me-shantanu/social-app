@@ -1,0 +1,30 @@
+.mypost {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  overflow-y: scroll;
+  height: 75vh;
+  align-items: center;
+  min-width: fit-content;
+}
+.Flipped {
+  direction: rtl;
+}
+.Content {
+  direction: ltr;
+}
+.mypost::-webkit-scrollbar {
+  width: 8px;
+  direction: ltr;
+}
+.mypost::-webkit-scrollbar-track {
+  background: #ededed;
+}
+.mypost::-webkit-scrollbar-thumb {
+  background: #043933;
+  /* background: linear-gradient(25deg, #043933, #043933); */
+  border-radius: 25px;
+}
+.mypost::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+}

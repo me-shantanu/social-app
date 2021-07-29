@@ -1,0 +1,115 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  background-color: #f6fafa;
+}
+.chat__nav {
+  display: flex;
+  height: 7vh;
+  width: 100%;
+  align-items: center;
+  background-color: #f6fafa;
+}
+.chat__nav__left {
+  display: flex;
+  align-items: center;
+  flex: 0.7;
+}
+.chat__nav__left__avatar {
+  height: 40px !important;
+  width: 40px !important;
+  cursor: pointer;
+}
+.chat__nav__left__text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3px;
+}
+.chat__nav__left__text > h5 {
+  font-size: 14px;
+  font-weight: 500;
+}
+.chat__nav__left__text__down {
+  display: flex;
+  align-items: center;
+}
+.chat__online {
+  width: 10px !important;
+  height: 10px !important;
+  color: green !important;
+  margin-right: 5px;
+}
+.chat__offline {
+  width: 10px !important;
+  height: 10px !important;
+  color: red !important;
+  margin-right: 5px;
+}
+.chat__nav__left__text__down > p {
+  font-size: 10px;
+  font-weight: 500;
+}
+.chat__nav__right {
+  display: flex;
+  align-items: center;
+  flex: 0.3;
+}
+.chat__nav__icon {
+  font-size: 22px !important;
+  color: #353535 !important;
+}
+.chat__body {
+  background-color: #f1ebe6;
+  height: 63vh;
+}
+.chat__body > h1 {
+  text-align: center;
+  color: #032723;
+  background-color: silver;
+  font-size: 14px;
+  border-radius: 2px;
+}
+.chat__foot {
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.chat__foot__input {
+  /* padding: 10px; */
+  border-radius: 30px;
+  margin-left: 5px;
+  background-color: #ededed;
+  display: flex;
+}
+.chat__foot__input > input {
+  border: none;
+  margin-left: 10px;
+  background-color: #ededed;
+  outline-width: 0;
+  color: #252525;
+}
+.chat__foot__send {
+  justify-content: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.chat__foot__icon {
+  font-size: 21px !important;
+  color: #353535 !important;
+}
+.chat__foot__icon__u {
+  color: #075e54 !important;
+}
+.chat__foot__icon__s {
+  color: #075e54 !important;
+}
+.chat__foot__icon__hov__u {
+  color: #25d366 !important;
+}
+.chat__foot__icon__hov__s {
+  /* background-color: #25d366 !important; */
+  color: #075e54 !important;
+  /* width: 35px !important;
+  height: 35px !important; */
+}

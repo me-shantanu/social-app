@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: #dadbd3;
+  place-items: center;
+  height: 100vh;
+}
+.app__nab {
+  margin-top: 30px;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+  width: 60vw;
+  height: 7vh;
+  background-color: #ededed;
+}
+.app__body {
+  display: flex;
+  /* margin-top: -10px; */
+  background-color: #ededed;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+  height: 85vh;
+  width: 90vw;
+}

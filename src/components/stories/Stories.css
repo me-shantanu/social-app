@@ -1,0 +1,28 @@
+.stories {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  height: 80vh;
+}
+.stories__nav {
+  display: flex;
+  align-items: center;
+  background-color: #f6fafa;
+  justify-content: space-between;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+}
+.stories__nav > h4 {
+  font-size: 22px;
+  color: #353535;
+  margin-right: 150px;
+}
+.stories__nav__icon {
+  font-size: 22px !important;
+  color: #353535 !important;
+}
+.stories__mid {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

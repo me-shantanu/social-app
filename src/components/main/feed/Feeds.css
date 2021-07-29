@@ -1,0 +1,23 @@
+.feeds {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  overflow-y: scroll;
+  height: 75vh;
+  align-items: center;
+  min-width: fit-content;
+}
+
+.feeds::-webkit-scrollbar {
+  width: 8px;
+}
+.feeds::-webkit-scrollbar-track {
+  background: #ededed;
+}
+.feeds::-webkit-scrollbar-thumb {
+  background: #043933;
+  border-radius: 25px;
+}
+.feeds::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+}

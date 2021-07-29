@@ -1,0 +1,13 @@
+.nabbar {
+  display: flex;
+  justify-content: center;
+}
+.nav__avatar {
+  margin-right: 10px;
+  margin-left: 20px;
+  margin-top: 5px;
+  cursor: pointer;
+  width: 40px !important;
+  height: 40px !important;
+  align-items: center;
+}

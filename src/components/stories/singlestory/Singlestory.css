@@ -1,0 +1,26 @@
+.singlestory {
+  display: flex;
+  flex-direction: column;
+  height: 12vh;
+  width: 6vw;
+  border-radius: 5px;
+  background-color: #f6fafa;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  cursor: pointer;
+}
+.singlestory__avatar {
+  border: 2px solid #075e54;
+}
+.singlestory__avatar__viewed {
+  border: 2px solid red;
+}
+.singlestory > h5 {
+  color: #353535;
+  font-size: 14px;
+  text-align: center;
+}
+.singlestory:hover {
+  box-shadow: -1px 2px 10px -6px rgba(0, 0, 0, 0.75);
+}

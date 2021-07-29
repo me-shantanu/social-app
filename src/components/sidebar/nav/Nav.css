@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+  padding: 2px 5px;
+  max-height: 12vh;
+  align-items: center;
+  border-left: 1px solid lightgray;
+  justify-content: space-between;
+}
+
+.nav__icon {
+  color: rgb(100, 100, 100) !important;
+  cursor: pointer;
+  font-size: 24px !important;
+}

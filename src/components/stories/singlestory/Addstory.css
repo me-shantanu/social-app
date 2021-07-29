@@ -1,0 +1,26 @@
+.addstory {
+  display: flex;
+  flex-direction: column;
+  height: 12vh;
+  width: 6vw;
+  border-radius: 5px;
+  background-color: #f6fafa;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  cursor: pointer;
+}
+.addstory:hover {
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+}
+.addstory__avatar {
+  width: 30px !important;
+  height: 30px !important;
+}
+.addstory__icon {
+  font-size: 25px !important;
+  color: #353535 !important;
+  border: 2px solid black;
+  border-radius: 50% 50%;
+  margin: 5px;
+}
